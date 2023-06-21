@@ -1,7 +1,7 @@
 require('dotenv').config({ path: '.env.local' });
 const chargebee = require('chargebee');
 
-console.log(process.env.NEXT_PUBLIC_CHARGEBEE_DOMAIN);
+console.log('Initiating seeding process!!');
 
 // Set your Chargebee API key and site name
 chargebee.configure({
