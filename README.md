@@ -46,7 +46,7 @@ Authentication and user profile information is stored in [Supabase](https://supa
 - [Next.js](https://nextjs.org/) – Framework
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Notion](https://www.notion.so/) – Content
-- [Chargebee](https://www.chargebee.com/) – Subscription
+- [Chargebee](https://www.chargebee.com/) – Subscription Management
 - [Supabase](https://supabase.com/) - Database & Authentication
 
 ## Getting Started

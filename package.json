@@ -1,9 +1,14 @@
 {
-  "name": "chargebee-blog-starter",
+  "name": "@chargebee/blog-starter",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/bharathvaj-ganesan/my-portfolio.git"
+    "url": "https://github.com/chargebee/cb-blog-starter.git"
+  },
+  "author": {
+    "email": "bharathvaj@chargebee.com",
+    "name": "Bharathvaj Ganesan",
+    "url": "https://www.chargebee.com"
   },
   "scripts": {
     "setup-config": "rm lib/server/config.js && cp blog.config.js lib/server/config.js",
