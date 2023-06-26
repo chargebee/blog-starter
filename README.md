@@ -111,26 +111,27 @@ Run this terminal command and use the value.
   - Finally configure Supabase Auth. You can add social SSO based on your requirement easily from Supabase console.
 
 - Configure Chargebee
+
   - Create new webhook with path `{REPLACE_YOUR_BASE_URL}/api/webhooks`. This will allow Chargebee to inform our application about the subscription changes happening at their end.
   - <details><summary>How does it will look like</summary>
     <img src="https://github.com/chargebee/blog-starter/blob/main/meta/Chargebee-webhook.png?raw=true">
     </details>
 
-<details><summary>How to create ?</summary>
-1. Webhook Name: create_chargebee_customer
-2. Conditions: Table - profiles; Event - insert 
-3. Type of Webhook - HTTP POST
-4. Headers 
-  - Content-type: application/json
-  - x-api-secret: {{REPLACE_WITH_API_ROUTE_SECRET}}
-5. Create
-</details>
+    <details><summary>How to create ?</summary>
+    1. Webhook Name: create_chargebee_customer
+    2. Conditions: Table - profiles; Event - insert 
+    3. Type of Webhook - HTTP POST
+    4. Headers 
+      - Content-type: application/json
+      - x-api-secret: {{REPLACE_WITH_API_ROUTE_SECRET}}
+    5. Create
+    </details>
 
 - Awesome. It's your time to write content. 🎉
 
 <details><summary>How to set the pricing for a blog content ? - Free / Premium</summary>
-Simply set the pricing column of the blog content to be either free / premium. Please note that these are plan names configured in Chargebee's account.
-</details>
+  Simply set the pricing column of the blog content to be either free / premium. Please note that these are plan names configured in Chargebee's account.
+  </details>
 
 ## Contributing
 
