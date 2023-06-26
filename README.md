@@ -135,6 +135,16 @@ We love our contributors! Here's how you can contribute:
 [Open an issue](https://github.com/chargebee/blog-starter/issues/new) if you believe you've encountered a bug.
 [Make a pull request](https://github.com/chargebee/blog-starter/pulls) to add new features/make quality-of-life improvements/fix bugs.
 
+### How can this be taken forward ?
+
+- **Caching**
+
+  Currently, we are pulling information directly from Notion via API. We can add caching layer with cache bursting strategy to reflect the latest information from Notion Database.
+  
+- **Personalization**
+
+  Showing personalized blog posts similar to [Medium.com](https://medium.com/)
+
 ## Author
 
 Bharathvaj Ganesan ([@bharathvaj_g](https://twitter.com/bharathvaj_g))
