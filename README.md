@@ -140,14 +140,10 @@ We love our contributors! Here's how you can contribute:
 - **Caching**
 
   Currently, we are pulling information directly from Notion via API. We can add caching layer with cache bursting strategy to reflect the latest information from Notion Database.
-  
+
 - **Personalization**
 
   Showing personalized blog posts similar to [Medium.com](https://medium.com/)
-
-## Author
-
-Bharathvaj Ganesan ([@bharathvaj_g](https://twitter.com/bharathvaj_g))
 
 ## License
 
