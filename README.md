@@ -2,6 +2,8 @@
 
 This is sample Next.js starter site that uses Notion as CMS and Chargebee for managing membership subscriptions.
 
+[Learn how to get started with this template in an in-depth tutorial!.](https://www.chargebee.com/tutorials/chargebee-notion-blog-starter/)
+
 Authentication and user profile information is stored in [Supabase](https://supabase.com/) (PostgreSQL).
 
 ## Screenshot
