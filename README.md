@@ -128,6 +128,10 @@ Run this terminal command and use the value.
 
 - Awesome. It's your time to write content. 🎉
 
+<details><summary>How to set the pricing for a blog content ? - Free / Premium</summary>
+Simply set the pricing column of the blog content to be either free / premium. Please note that these are plan names configured in Chargebee's account.
+</details>
+
 ## Contributing
 
 We love our contributors! Here's how you can contribute:
@@ -139,7 +143,7 @@ We love our contributors! Here's how you can contribute:
 
 - **Caching**
 
-  Currently, we are pulling information directly from Notion via API. We can add caching layer with cache bursting strategy to reflect the latest information from Notion Database.
+  Currently, we are pulling information directly from Notion via API (This might cause latency issue). We can add caching layer with cache bursting strategy to reflect the latest information from Notion Database.
 
 - **Personalization**
 
