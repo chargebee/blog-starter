@@ -6,7 +6,7 @@ Authentication and user profile information is stored in [Supabase](https://supa
 
 ## Screenshot
 
-<img src="https://github.com/chargebee/cb-blog-starter/blob/main/meta/bharathvaj.png?raw=true">
+<img src="https://github.com/chargebee/blog-starter/blob/main/meta/bharathvaj.png?raw=true">
 
 **Demo**: https://chargebee-blog-starter.vercel.app/
 
@@ -46,7 +46,7 @@ Authentication and user profile information is stored in [Supabase](https://supa
 - [Next.js](https://nextjs.org/) – Framework
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Notion](https://www.notion.so/) – Content
-- [Chargebee](https://www.chargebee.com/) – Subscription
+- [Chargebee](https://www.chargebee.com/) – Subscription Management
 - [Supabase](https://supabase.com/) - Database & Authentication
 
 ## Getting Started
@@ -56,7 +56,7 @@ This project requires a recent version of Node.js (we recommend >= 16).
 - Star this repo 😉
 - Duplicate [this Notion template](https://bharathvaj-ganesan.notion.site/d51a395709e74a9eaae9f2cd3895f98c?v=1d2ea9e6652e4d508439ed5a9a73e08d). Make sure it is not public.
 - Fork this project by clicking on `Use this template` action.
-- Customize [blog.config.js](https://github.com/chargebee/cb-blog-starter/blob/main/blog.config.js). All config is defined in this file.
+- Customize [blog.config.js](https://github.com/chargebee/blog-starter/blob/main/blog.config.js). All config is defined in this file.
 - (Optional) Replace favicon.png in /public folder with your own.
 - For local development, run `cp .env.example .env.local` and update the following env properties.
 
@@ -75,16 +75,16 @@ This project requires a recent version of Node.js (we recommend >= 16).
 | API_ROUTE_SECRET              | Admin Secret Key to access our API                                                                             |
 
 <details><summary>How to get Notion related envs</summary>
-<img src="https://github.com/chargebee/cb-blog-starter/blob/main/meta/Notion-page-id.png?raw=true">
-<img src="https://github.com/chargebee/cb-blog-starter/blob/main/meta/Notion-token.png?raw=true">
+<img src="https://github.com/chargebee/blog-starter/blob/main/meta/Notion-page-id.png?raw=true">
+<img src="https://github.com/chargebee/blog-starter/blob/main/meta/Notion-token.png?raw=true">
 </details>
 
 <details><summary>How to get Supabase related envs</summary>
-<img src="https://github.com/chargebee/cb-blog-starter/blob/main/meta/Supabase.png?raw=true">
+<img src="https://github.com/chargebee/blog-starter/blob/main/meta/Supabase.png?raw=true">
 </details>
 
 <details><summary>How to get Chargebee related envs</summary>
-<img src="https://github.com/chargebee/cb-blog-starter/blob/main/meta/Chargebee.png?raw=true">
+<img src="https://github.com/chargebee/blog-starter/blob/main/meta/Chargebee.png?raw=true">
 </details>
 
 <details><summary>How to get API Route secret</summary>
@@ -102,18 +102,18 @@ Run this terminal command and use the value.
 - That's it! Easy-peasy? You now have blog running locally.
 - Now you can deploy to Vercel using the following button and update the env property values.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/chargebee/cb-blog-starter/tree/main&project-name=chargebee-notion-blog&repository-name=chargebee-notion-blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/chargebee/blog-starter/tree/main&project-name=chargebee-notion-blog&repository-name=chargebee-notion-blog)
 
 - Configure Supabase.
 
-  - Copy the [seed.sql](https://github.com/chargebee/cb-blog-starter/blob/main/supabase/seed.sql) and in a freshly created Supabase project. Go to SQL Editor and run this sql script. This will create required tables, triggers and functions.
+  - Copy the [seed.sql](https://github.com/chargebee/blog-starter/blob/main/supabase/seed.sql) and in a freshly created Supabase project. Go to SQL Editor and run this sql script. This will create required tables, triggers and functions.
   - You also need to create a webhook in Supabase that watches the row insertions and triggers a HTTP call to our application to create new customer in Chargebee.
   - Finally configure Supabase Auth. You can add social SSO based on your requirement easily from Supabase console.
 
 - Configure Chargebee
   - Create new webhook with path `{REPLACE_YOUR_BASE_URL}/api/webhooks`. This will allow Chargebee to inform our application about the subscription changes happening at their end.
   - <details><summary>How does it will look like</summary>
-    <img src="https://github.com/chargebee/cb-blog-starter/blob/main/meta/Chargebee-webhook.png?raw=true">
+    <img src="https://github.com/chargebee/blog-starter/blob/main/meta/Chargebee-webhook.png?raw=true">
     </details>
 
 <details><summary>How to create ?</summary>
@@ -132,8 +132,8 @@ Run this terminal command and use the value.
 
 We love our contributors! Here's how you can contribute:
 
-[Open an issue](https://github.com/chargebee/cb-blog-starter/issues/new) if you believe you've encountered a bug.
-[Make a pull request](https://github.com/chargebee/cb-blog-starter/pulls) to add new features/make quality-of-life improvements/fix bugs.
+[Open an issue](https://github.com/chargebee/blog-starter/issues/new) if you believe you've encountered a bug.
+[Make a pull request](https://github.com/chargebee/blog-starter/pulls) to add new features/make quality-of-life improvements/fix bugs.
 
 ## Author
 
@@ -141,4 +141,4 @@ Bharathvaj Ganesan ([@bharathvaj_g](https://twitter.com/bharathvaj_g))
 
 ## License
 
-Inspired by [Notion Blog](https://github.com/chargebee/cb-blog-starter), this starter is open-source under the MIT. You can find it [here](https://github.com/chargebee/cb-blog-starter/blob/main/LICENSE).
+Inspired by [Notion Blog](https://github.com/chargebee/blog-starter), this starter is open-source under the MIT. You can find it [here](https://github.com/chargebee/blog-starter/blob/main/LICENSE).
